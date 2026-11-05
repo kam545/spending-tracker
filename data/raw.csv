@@ -1,0 +1,26 @@
+Date,Merchant,Category,Amount_USD,Payment_Method
+2026-09-01,Maple Cart Market,Groceries,36.42,Debit card
+09/02/2026,Little Brass Kettle,Coffee,$4.75,Cash
+2026-09-03,Loopline Transit,Transport,2.50,Transit card
+Sep 4 2026,Paper Finch Books,Books,18.99,Debit card
+2026-09-05,Juniper Slice,Dining out,12.80,Cash
+2026-09-06,Maple Cart Market,Grocery,27.16,Debit card
+2026-09-07,Pixel Cove Electronics,Electronics,"$1,849.00",Credit card
+2026-09-08,Little Brass Kettle,coffee,5.25,
+2026-09-09,Threadberry Laundry,Laundry,8.00,Cash
+2026-09-10,Loopline Transit,Transport,2.50,Transit card
+2026-09-10,Loopline Transit,Transport,2.50,Transit card
+2026-09-11,North Window Cinema,Entertainment,14.00,Debit card
+12 Sep 2026,Riverbend Noodles,Dining Out,16.35,Credit card
+2026-09-13,Maple Cart Market,Groceries,41.08,Debit card
+2026-09-14,,School supplies,6.49,Cash
+2026-09-15,Little Brass Kettle,Coffee,4.75,Debit card
+2026-09-31,Cloudberry Copy Shop,School supplies,3.20,Debit card
+2026-09-17,Pedal Patch Bikes,Transport,22.00,Credit card
+2026-09-18,Juniper Slice,Dining out,9.60,Cash
+2026-09-19,Maple Cart Market,groceries,33.87,Debit card
+2026-09-20,Paper Finch Books,Books,11.50,
+2026-09-21,Pocket Moon Arcade,Entertainment,7.00,Cash
+2026-09-22,Little Brass Kettle,,4.25,Debit card
+2026-09-23,Threadberry Laundry,Laundry,8.00,Cash
+,TOTAL,,"$2,161.96",
