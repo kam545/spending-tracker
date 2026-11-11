@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Spending tracker</title><link rel="stylesheet" href="style.css"></head>
+<body><main><nav><a href="index.html">Spending tracker</a><a href="data/clean.html">Clean practice data</a><a href="data/tests.html">Validation tests</a></nav>
+<h1>See where it goes.</h1><p class="intro">A simple spending tracker for made-up practice data. Import a CSV to review purchases and see your total. Each import replaces the current list.</p>
+<div class="card summary"><div>Total spending<strong id="total">$0.00</strong></div><div>Purchases<strong id="count">0</strong></div></div>
+<div class="actions"><button id="import">Import CSV</button><button id="clear" class="secondary">Clear purchases</button><a href="data/clean.csv" download>Download clean sample</a><input id="file" type="file" accept=".csv,text/csv" hidden aria-label="Choose CSV"></div>
+<p><small>Saved in this browser. Use fictional data only.</small></p><section id="report" aria-live="polite"></section>
+<section class="card"><h2>Your purchases</h2><div id="purchases" class="scroll"></div></section>
+<script src="data/schema.js"></script><script src="data/csv.js"></script><script src="data/validate.js"></script><script src="data/ui.js"></script><script src="script.js"></script></main></body></html>

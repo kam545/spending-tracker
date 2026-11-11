@@ -1,0 +1,26 @@
+:root { font-family: 'Avenir Next', system-ui, sans-serif; color: #18362e; background: #f4f5ef; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1100px; margin: auto; padding: 48px 24px; }
+nav { display: flex; flex-wrap: wrap; gap: 24px; margin-bottom: 52px; }
+a { color: #25634f; text-underline-offset: 4px; }
+h1 { font-size: clamp(36px, 6vw, 64px); letter-spacing: -2px; margin: 12px 0; }
+h2 { font-size: 23px; }
+p { line-height: 1.6; }
+.intro { max-width: 640px; color: #51645b; }
+.card { background: white; border: 1px solid #dce3d9; border-radius: 16px; padding: 24px; margin: 24px 0; }
+.summary { display: flex; flex-wrap: wrap; gap: 48px; }
+.summary strong { display: block; font-size: 36px; margin-top: 8px; }
+button, .button { border: 0; border-radius: 8px; background: #225f49; color: white; padding: 13px 20px; font: inherit; cursor: pointer; display: inline-block; }
+button.secondary { background: #e8eee7; color: #18362e; }
+button:disabled { opacity: .5; cursor: default; }
+button:focus-visible, a:focus-visible { outline: 3px solid #bd7d24; outline-offset: 4px; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 13px 12px; border-bottom: 1px solid #e6ebe3; vertical-align: top; }
+th { color: #53665b; font-size: 12px; letter-spacing: .04em; }
+li { margin: 10px 0; line-height: 1.5; }
+.pass { color: #236346; } .fail { color: #a63025; }
+small { color: #57675d; }
+@media(max-width:600px) { main { padding: 24px 16px; } nav { margin-bottom: 32px; } .card { padding: 16px; } }
